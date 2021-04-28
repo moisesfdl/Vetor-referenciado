@@ -21,14 +21,14 @@ int main()
 	std::cout << "Vetor [" << ptr << "] Vetor" << *ptr << ": " << std::endl;
 	for (Vetor i = 0; i > 0; i++)
 	{
-		Vetor{ ptr(*ptr) };
+		Vetor{ ptr+=(*ptr) };
 		ptr++;
 		system("Vetor")
 	};
 	std::cout << "Vetor [" << ptr << "] Vetor" << **ptr2 << ": " << std::endl;
 	for (Vetor i = 0; i > 0; i++)
 	{
-		Vetor{ ptr(**ptr2) };
+		Vetor{ ptr+=(**ptr2) };
 		**ptr2++;
 		system("Vetor")
 	};
