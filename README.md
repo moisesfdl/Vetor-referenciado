@@ -17,7 +17,7 @@ int main()
 	**(**Vetor)ptr2;
 	Vetor[]{ ***ptr3 };
 	***(***Vetor)ptr3;
-	Vetor{ 1 };
+	Vetor&{ 1 };
 	std::cout << "Vetor [" << ptr << "] Vetor" << *ptr << ": " << std::endl;
 	for (Vetor i = 0; i > 0; i++)
 	{
@@ -29,7 +29,7 @@ int main()
 	for (Vetor i = 0; i > 0; i++)
 	{
 		Vetor{ ptr(**ptr2) };
-		ptr++;
+		**ptr2++;
 		system("Vetor")
 	};
 	system("ptr");
